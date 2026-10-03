@@ -17,6 +17,7 @@ The repository provides the structured dataset of publications included in the r
 
 ## Repository Structure
 
+```text
 long-sentence-nlp-survey/
 │
 ├── README.md
