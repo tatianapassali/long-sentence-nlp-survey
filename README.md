@@ -1,4 +1,6 @@
 <div align="center">
+    
+<img src="figures/avatar.png" alt="From Lengthy to Lucid illustration" width="250">
 
 # From Lengthy to Lucid
 
