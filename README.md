@@ -117,24 +117,6 @@ The search strategy included terminology related to both sentence compression an
 
 Following the search and screening process, **170 studies** were included in the final review.
 
-The included studies were categorized according to whether they addressed:
-
-1. Sentence compression
-2. Sentence splitting
-
-The publication-level metadata is provided in the two datasets:
-
-- [`sentence_compression_literature.csv`](papers/sentence_compression_literature.csv)
-- [`sentence_splitting_literature.csv`](papers/sentence_splitting_literature.csv)
----
-
-
-## Dataset
-
-The datasets contain the publication-level metadata collected during the systematic literature review.
-
-Each row corresponds to a publication included in the review.
-
 ### Sentence Compression
 
 [`sentence_compression_literature.csv`](papers/sentence_compression_literature.csv)
@@ -177,53 +159,6 @@ The taxonomy is available in:
 
 ---
 
-## Figures
-
-The `figures/` directory contains the figures associated with the systematic literature review.
-
-These figures illustrate trends and characteristics of the reviewed literature, including:
-
-- Publication trends over time
-- Distribution of studies across sentence compression and sentence splitting
-- Methodological approaches
-- Training and supervision settings
-- Other characteristics of the reviewed studies
-
-The figures are provided as supplementary research materials and support the analysis presented in the associated systematic literature review.
-
----
-
-## Research Analysis
-
-The review provides a structured analysis of the literature according to several dimensions, including:
-
-- Task category
-- Methodological approach
-- Task formulation
-- Training and supervision setting
-- Datasets
-- Evaluation measures
-- Language
-
-This organization enables comparison of the approaches used for sentence compression and sentence splitting and provides an overview of how the research landscape has developed over time.
-
----
-
-## Main Observations
-
-The review identifies several characteristics of the existing literature.
-
-Research on sentence compression and sentence splitting has developed across multiple methodological paradigms, with supervised approaches representing a substantial part of the literature.
-
-Sentence compression has received considerably more research attention than sentence splitting.
-
-The literature includes a variety of methodological approaches, training settings, task formulations, datasets, and evaluation measures.
-
-The review also identifies opportunities for further investigation of weakly supervised and self-supervised approaches, as well as the application of large language models to sentence compression and sentence splitting.
-
-These observations are discussed in detail in the associated publication.
-
----
 ## Citation
 
 If you use the datasets, taxonomy, figures, or other materials from this repository, please cite the associated publication.
@@ -241,6 +176,7 @@ If you use the datasets, taxonomy, figures, or other materials from this reposit
   journal = {arXiv preprint arXiv:2312.05172},
   year    = {2023}
 }
+```
 
 ## License
 
