@@ -1,4 +1,19 @@
+<div align="center">
+
 # From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences
+
+[![Review](https://img.shields.io/badge/Review-Systematic%20Literature%20Review-blue)]()
+[![PRISMA](https://img.shields.io/badge/Framework-PRISMA-green)]()
+[![Studies](https://img.shields.io/badge/Studies-170-orange)]()
+[![Period](https://img.shields.io/badge/Period-2000--2026-purple)]()
+
+</div>
+
+## At a Glance
+
+| 170 Studies | 2 Tasks | 2000–2026 | PRISMA |
+|:---:|:---:|:---:|:---:|
+| Reviewed publications | Compression & Splitting | Review period | Review framework |
 
 This repository contains the supplementary materials for the systematic literature review:
 
