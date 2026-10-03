@@ -43,14 +43,6 @@ The repository provides the structured literature datasets, the taxonomy develop
 | 🧭 [**Taxonomy**](taxonomy/taxonomy.pdf) | Taxonomy developed from the reviewed literature |
 | 📊 [**Figures**](figures/) | Figures associated with the systematic literature review |
 
-## Publication Trends
-
-<p align="center">
-  <img src="figures/cumulative_number_of_publications.pdf" alt="Cumulative publications over time" width="750">
-</p>
-
-The figure shows the cumulative growth of research publications in sentence compression and sentence splitting from 2000 to 2026.
-
 ## Repository Structure
 
 ```text
@@ -93,26 +85,6 @@ Contains the figures associated with the systematic literature review, including
 Contains the taxonomy developed to organize and characterize the approaches identified in the literature.
 
 - [`taxonomy.pdf`](taxonomy/taxonomy.pdf)
-
----
-
-## Systematic Literature Review
-
-### Background
-
-Long and syntactically complex sentences can negatively affect readability and make information more difficult to process.
-
-NLP techniques can address this problem by transforming complex sentences into shorter or simpler structures.
-
-This review focuses on two complementary approaches.
-
-### Sentence Compression
-
-Sentence compression aims to shorten a sentence while preserving its essential meaning.
-
-### Sentence Splitting
-
-Sentence splitting aims to decompose a long or syntactically complex sentence into multiple shorter sentences while maintaining the meaning and coherence of the original text.
 
 ---
 
@@ -189,16 +161,6 @@ The original publications referenced in the datasets are not redistributed by th
 
 ---
 
-## Taxonomy
-
-A taxonomy was developed to organize the approaches identified across the reviewed literature.
-
-The taxonomy captures important characteristics of approaches to sentence compression and sentence splitting, including methodological and task-related distinctions.
-
-[**View the taxonomy PDF**](taxonomy/taxonomy.pdf)
-
----
-
 ## Associated Publication
 
 **Tatiana Passali, Efstathios Chatzikyriakidis, Stelios Andreadis, Thanos G. Stavropoulos, Anastasia Matonaki, Anestis Fachantidis, and Grigorios Tsoumakas**
@@ -245,9 +207,3 @@ The license applies to the materials contained in this repository.
 The original publications referenced in the CSV datasets remain subject to their respective copyright and licensing terms.
 
 ---
-
-## Acknowledgements
-
-This repository accompanies the systematic literature review:
-
-**From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences.**
