@@ -17,32 +17,31 @@ The repository provides the structured dataset of publications included in the r
 
 ## Repository Structure
 
-```text
 long-sentence-nlp-survey/
 │
 ├── README.md
 │
-├── data/
-│   └── publications.csv
+├── papers/
+│   ├── sentence_compression_literature.csv
+│   └── sentence_splitting_literature.csv
 │
 ├── figures/
-│   ├── cumulative_publications.pdf
-│   ├── publications_by_year.pdf
-│   └── ...
+│   ├── cumulative_number_of_publications.pdf
+│   ├── cumulative_compression.pdf
+│   └── cumulative_splitting.pdf
 │
 └── taxonomy/
     └── taxonomy.pdf
 ```
 
-### `data/`
+### `papers/`
 
-Contains the structured dataset of publications included in the systematic literature review.
+Contains two structured datasets corresponding to the two tasks covered by the systematic literature review:
 
-The main file is:
+- [`sentence_compression_literature.csv`](papers/sentence_compression_literature.csv) — publications addressing **sentence compression**
+- [`sentence_splitting_literature.csv`](papers/sentence_splitting_literature.csv) — publications addressing **sentence splitting**
 
-**`publications.csv`**
-
-The dataset can be viewed directly as a table through the GitHub interface.
+Both CSV files can be viewed directly as tables through the GitHub interface.
 
 ### `figures/`
 
@@ -122,19 +121,32 @@ The included studies were categorized according to whether they addressed:
 1. Sentence compression
 2. Sentence splitting
 
-The structured metadata for these studies is provided in [`data/publications.csv`](data/publications.csv).
+The publication-level metadata is provided in the two datasets:
 
+- [`sentence_compression_literature.csv`](papers/sentence_compression_literature.csv)
+- [`sentence_splitting_literature.csv`](papers/sentence_splitting_literature.csv)
 ---
+
 
 ## Dataset
 
-### `publications.csv`
-
-The dataset contains the publication-level metadata collected during the systematic literature review.
+The datasets contain the publication-level metadata collected during the systematic literature review.
 
 Each row corresponds to a publication included in the review.
 
-The dataset contains the following fields:
+### Sentence Compression
+
+[`sentence_compression_literature.csv`](papers/sentence_compression_literature.csv)
+
+This file contains publications addressing sentence compression.
+
+### Sentence Splitting
+
+[`sentence_splitting_literature.csv`](papers/sentence_splitting_literature.csv)
+
+This file contains publications addressing sentence splitting.
+
+The datasets contain the following fields:
 
 | Field | Description |
 |---|---|
@@ -148,11 +160,7 @@ The dataset contains the following fields:
 | `Training` | Training or supervision setting |
 | `Language` | Language addressed by the study |
 
-The CSV is provided as a structured research dataset and can be opened directly in spreadsheet software or viewed as a table through GitHub.
-
-### Browse the dataset
-
-[**View publications.csv**](data/publications.csv)
+The CSV files are provided as structured research datasets and can be opened directly in spreadsheet software or viewed as tables through GitHub.
 
 ---
 
@@ -215,42 +223,23 @@ The review also identifies opportunities for further investigation of weakly sup
 These observations are discussed in detail in the associated publication.
 
 ---
-
-## Reproducibility and Data
-
-This repository provides the structured publication dataset, taxonomy, and figures accompanying the systematic literature review.
-
-The publication dataset is intended to make the reviewed literature easier to inspect, reuse, and extend.
-
-Researchers can use the dataset to:
-
-- Inspect the studies included in the review
-- Filter studies by task category
-- Examine methodological approaches
-- Explore publication years
-- Examine training and supervision settings
-- Explore the distribution of languages
-- Conduct further analysis of the reviewed literature
-
----
-
-## Associated Publication
-
-**Tatiana Passali, Efstathios Chatzikyriakidis, Stelios Andreadis, Thanos G. Stavropoulos, Anastasia Matonaki, Anestis Fachantidis, and Grigorios Tsoumakas**
-
-**From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences**
-
-This repository provides supplementary materials associated with this systematic literature review.
-
----
-
 ## Citation
 
-If you use the dataset, taxonomy, figures, or other materials from this repository, please cite the associated publication.
+If you use the datasets, taxonomy, figures, or other materials from this repository, please cite the associated publication.
 
-A complete BibTeX citation will be added once the final publication information is available.
-
----
+```bibtex
+@article{passali2023lengthy,
+  title   = {From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences},
+  author  = {Passali, Tatiana and
+             Chatzikyriakidis, Efstathios and
+             Andreadis, Stelios and
+             Stavropoulos, Thanos G. and
+             Matonaki, Anastasia and
+             Fachantidis, Anestis and
+             Tsoumakas, Grigorios},
+  journal = {arXiv preprint arXiv:2312.05172},
+  year    = {2023}
+}
 
 ## License
 
@@ -258,12 +247,4 @@ The supplementary materials provided in this repository are released under the *
 
 The license applies to the materials contained in this repository.
 
-The original publications referenced in `publications.csv` remain subject to their respective copyright and licensing terms.
-
----
-
-## Acknowledgements
-
-This repository accompanies the systematic literature review:
-
-**From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences.**
+The original publications referenced in the CSV datasets remain subject to their respective copyright and licensing terms.
