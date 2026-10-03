@@ -1,13 +1,17 @@
 <div align="center">
 
-# From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences
+# From Lengthy to Lucid
 
-[![Review](https://img.shields.io/badge/Review-Systematic%20Literature%20Review-blue)]()
+### A Systematic Literature Review on NLP Techniques for Taming Long Sentences
+
+[![Systematic Literature Review](https://img.shields.io/badge/Review-Systematic%20Literature%20Review-blue)]()
 [![PRISMA](https://img.shields.io/badge/Framework-PRISMA-green)]()
-[![Studies](https://img.shields.io/badge/Studies-170-orange)]()
-[![Period](https://img.shields.io/badge/Period-2000--2026-purple)]()
+[![170 Studies](https://img.shields.io/badge/Studies-170-orange)]()
+[![2000–2026](https://img.shields.io/badge/Period-2000--2026-purple)]()
 
 </div>
+
+---
 
 ## At a Glance
 
@@ -17,7 +21,7 @@
 
 This repository contains the supplementary materials for the systematic literature review:
 
-**From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences**
+> **From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences**
 
 The review investigates Natural Language Processing (NLP) techniques for transforming long and complex sentences into shorter and more readable forms.
 
@@ -26,9 +30,26 @@ The review focuses on two complementary tasks:
 - **Sentence compression**
 - **Sentence splitting**
 
-The repository provides the structured dataset of publications included in the review, the taxonomy developed from the reviewed literature, and the figures used to analyse publication and methodological trends.
+The repository provides the structured literature datasets, the taxonomy developed from the reviewed studies, and the figures used to analyse publication and methodological trends.
 
 ---
+
+## Explore the Review
+
+| Resource | Description |
+|:---|:---|
+| 📚 [**Sentence compression literature**](papers/sentence_compression_literature.csv) | Publications addressing sentence compression |
+| 📚 [**Sentence splitting literature**](papers/sentence_splitting_literature.csv) | Publications addressing sentence splitting |
+| 🧭 [**Taxonomy**](taxonomy/taxonomy.pdf) | Taxonomy developed from the reviewed literature |
+| 📊 [**Figures**](figures/) | Figures associated with the systematic literature review |
+
+## Publication Trends
+
+<p align="center">
+  <img src="figures/cumulative_number_of_publications.png" alt="Cumulative publications over time" width="750">
+</p>
+
+The figure shows the cumulative growth of research publications in sentence compression and sentence splitting from 2000 to 2026.
 
 ## Repository Structure
 
@@ -57,17 +78,21 @@ Contains two structured datasets corresponding to the two tasks covered by the s
 - [`sentence_compression_literature.csv`](papers/sentence_compression_literature.csv) — publications addressing **sentence compression**
 - [`sentence_splitting_literature.csv`](papers/sentence_splitting_literature.csv) — publications addressing **sentence splitting**
 
-Both CSV files can be viewed directly as tables through the GitHub interface.
+GitHub renders CSV files as tables, allowing the publication metadata to be browsed directly in the repository.
 
 ### `figures/`
 
-Contains the figures produced for the systematic literature review.
+Contains the figures associated with the systematic literature review, including visualizations of publication trends and other characteristics of the reviewed literature.
 
-These include visualizations of publication trends and methodological characteristics of the reviewed literature.
+- [`cumulative_number_of_publications.pdf`](figures/cumulative_number_of_publications.pdf)
+- [`cumulative_compression.pdf`](figures/cumulative_compression.pdf)
+- [`cumulative_splitting.pdf`](figures/cumulative_splitting.pdf)
 
 ### `taxonomy/`
 
 Contains the taxonomy developed to organize and characterize the approaches identified in the literature.
+
+- [`taxonomy.pdf`](taxonomy/taxonomy.pdf)
 
 ---
 
@@ -79,7 +104,7 @@ Long and syntactically complex sentences can negatively affect readability and m
 
 NLP techniques can address this problem by transforming complex sentences into shorter or simpler structures.
 
-This review focuses on two complementary approaches:
+This review focuses on two complementary approaches.
 
 ### Sentence Compression
 
@@ -134,15 +159,15 @@ Following the search and screening process, **170 studies** were included in the
 
 ### Sentence Compression
 
-[`sentence_compression_literature.csv`](papers/sentence_compression_literature.csv)
+[**sentence_compression_literature.csv**](papers/sentence_compression_literature.csv)
 
-This file contains publications addressing sentence compression.
+Contains publications addressing **sentence compression**.
 
 ### Sentence Splitting
 
-[`sentence_splitting_literature.csv`](papers/sentence_splitting_literature.csv)
+[**sentence_splitting_literature.csv**](papers/sentence_splitting_literature.csv)
 
-This file contains publications addressing sentence splitting.
+Contains publications addressing **sentence splitting**.
 
 The datasets contain the following fields:
 
@@ -160,6 +185,8 @@ The datasets contain the following fields:
 
 The CSV files are provided as structured research datasets and can be opened directly in spreadsheet software or viewed as tables through GitHub.
 
+The original publications referenced in the datasets are not redistributed by this repository. The links in the datasets point to the corresponding publication or source.
+
 ---
 
 ## Taxonomy
@@ -168,9 +195,17 @@ A taxonomy was developed to organize the approaches identified across the review
 
 The taxonomy captures important characteristics of approaches to sentence compression and sentence splitting, including methodological and task-related distinctions.
 
-The taxonomy is available in:
+[**View the taxonomy PDF**](taxonomy/taxonomy.pdf)
 
-[**View the taxonomy**](taxonomy/taxonomy.pdf)
+---
+
+## Associated Publication
+
+**Tatiana Passali, Efstathios Chatzikyriakidis, Stelios Andreadis, Thanos G. Stavropoulos, Anastasia Matonaki, Anestis Fachantidis, and Grigorios Tsoumakas**
+
+**From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences**
+
+[**arXiv:2312.05172**](https://arxiv.org/abs/2312.05172)
 
 ---
 
@@ -193,10 +228,26 @@ If you use the datasets, taxonomy, figures, or other materials from this reposit
 }
 ```
 
+---
+
 ## License
 
-The supplementary materials provided in this repository are released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+<div align="left">
+
+[![CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+</div>
+
+The supplementary materials provided in this repository are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 The license applies to the materials contained in this repository.
 
 The original publications referenced in the CSV datasets remain subject to their respective copyright and licensing terms.
+
+---
+
+## Acknowledgements
+
+This repository accompanies the systematic literature review:
+
+**From Lengthy to Lucid: A Systematic Literature Review on NLP Techniques for Taming Long Sentences.**
