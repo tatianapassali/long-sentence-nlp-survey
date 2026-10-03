@@ -46,7 +46,7 @@ The repository provides the structured literature datasets, the taxonomy develop
 ## Publication Trends
 
 <p align="center">
-  <img src="figures/cumulative_number_of_publications.png" alt="Cumulative publications over time" width="750">
+  <img src="figures/cumulative_number_of_publications.pdf" alt="Cumulative publications over time" width="750">
 </p>
 
 The figure shows the cumulative growth of research publications in sentence compression and sentence splitting from 2000 to 2026.
