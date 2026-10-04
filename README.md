@@ -17,9 +17,9 @@
 
 ## At a Glance
 
-| 170 Studies | 2 Tasks | 2000–2026 | PRISMA |
-|:---:|:---:|:---:|:---:|
-| Reviewed publications | Compression & Splitting | Review period | Review framework |
+| 170 Studies | 2 Tasks | 2000–2026 |
+|:---:|:---:|:---:|
+| Reviewed publications | Compression & Splitting | Review period |
 
 This repository contains the supplementary materials for the systematic literature review:
 
@@ -98,7 +98,7 @@ The eligibility criteria cover studies published between **2000 and 2026**.
 
 The review considers eligible scholarly publications written in English and available in full text, including journal and conference publications. Dissertations and theses are excluded.
 
-The systematic review follows the **PRISMA** framework.
+The systematic review follows the [**PRISMA 2020 guidelines.**](https://www.prisma-statement.org/prisma-2020)
 
 ---
 
